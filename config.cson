@@ -1,0 +1,69 @@
+"*":
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "language-gfm"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-go"
+      "language-less"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-toml"
+      "link"
+      "metrics"
+      "open-on-github"
+      "styleguide"
+      "package-generator"
+      "welcome"
+      "archive-view"
+      "autocomplete-atom-api"
+      "markdown-preview"
+      "language-csharp"
+      "language-java"
+      "language-make"
+      "language-php"
+      "language-sql"
+      "language-xml"
+    ]
+    projectHome: "/home/emil.valeev/dev"
+    telemetryConsent: "limited"
+    themes: [
+      "pristine-ui"
+      "one-dark-syntax"
+    ]
+    warnOnLargeFileLimit: 1
+  editor:
+    fontSize: 17
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "c59e223c-1429-4e78-9c86-39c6ce75cf87"
+  "highlight-column":
+    lineMode: true
+  hyperclick:
+    linuxTriggerKeys: "shiftKey"
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-ui-default":
+    panelHeight: 69
+  minimap:
+    independentMinimapScroll: true
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+  "pristine-ui": {}
+  welcome:
+    showOnStartup: false
+".html.text.vue":
+  editor:
+    autoIndent: true
+".sass.source":
+  editor:
+    autoIndentOnPaste: false
