@@ -43,12 +43,21 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+  emmet: {}
   "exception-reporting":
     userId: "c59e223c-1429-4e78-9c86-39c6ce75cf87"
+  "file-icons": {}
   "highlight-column":
     lineMode: true
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
   hyperclick:
     linuxTriggerKeys: "shiftKey"
+  "js-hyperclick":
+    usePendingPanes: true
+  jumpy:
+    highContrast: true
   "linter-eslint":
     lintHtmlFiles: true
   "linter-ui-default":
@@ -58,6 +67,8 @@
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0
+  pigments:
+    markerType: "gutter"
   "pristine-ui": {}
   welcome:
     showOnStartup: false

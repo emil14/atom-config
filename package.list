@@ -8,6 +8,7 @@ highlight-selected@0.13.1
 hyperclick@0.1.2
 intentions@1.1.2
 js-hyperclick@1.11.0
+jumpy@3.1.3
 language-markdown@0.23.0
 language-pug@0.0.21
 language-vue@0.23.0
@@ -16,6 +17,8 @@ linter-eslint@8.2.1
 linter-ui-default@1.6.2
 minimap@4.28.2
 minimap-cursorline@0.2.0
+multi-cursor-plus@1.2.0
+pigments@0.39.1
 pristine-ui@1.1.0
 vue-hyperclick@0.2.0
 
