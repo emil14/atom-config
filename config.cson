@@ -29,6 +29,11 @@
       "language-php"
       "language-sql"
       "language-xml"
+      "language-yaml"
+      "image-view"
+    ]
+    packagesWithKeymapsDisabled: [
+      "ctrl-dir-scroll"
     ]
     projectHome: "/home/emil.valeev/dev"
     telemetryConsent: "limited"
@@ -43,6 +48,7 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    zoomFontWhenCtrlScrolling: false
   emmet: {}
   "exception-reporting":
     userId: "c59e223c-1429-4e78-9c86-39c6ce75cf87"
@@ -61,7 +67,7 @@
   "linter-eslint":
     lintHtmlFiles: true
   "linter-ui-default":
-    panelHeight: 69
+    panelHeight: 63
   minimap:
     independentMinimapScroll: true
     plugins:
@@ -69,7 +75,33 @@
       cursorlineDecorationsZIndex: 0
   pigments:
     markerType: "gutter"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#073642"
+        blue: "#268bd2"
+        cyan: "#2aa198"
+        green: "#859900"
+        magenta: "#d33682"
+        red: "#dc322f"
+        yellow: "#b58900"
+      zBright:
+        brightBlack: "#073642"
+        brightBlue: "#268bd2"
+        brightCyan: "#2aa198"
+        brightGreen: "#859900"
+        brightMagenta: "#d33682"
+        brightRed: "#dc322f"
+        brightYellow: "#b58900"
+    core: {}
+    style:
+      animationSpeed: 0
+      fontSize: "14"
   "pristine-ui": {}
+  "terminal-plus":
+    core: {}
+  "tree-view-breadcrumb":
+    scrollToLastItem: false
   welcome:
     showOnStartup: false
 ".html.text.vue":
