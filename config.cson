@@ -35,7 +35,7 @@
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
     ]
-    projectHome: "/home/emil.valeev/dev"
+    projectHome: "~/dev"
     telemetryConsent: "limited"
     themes: [
       "pristine-ui"
