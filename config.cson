@@ -75,28 +75,6 @@
       cursorlineDecorationsZIndex: 0
   pigments:
     markerType: "gutter"
-  "platformio-ide-terminal":
-    ansiColors:
-      normal:
-        black: "#073642"
-        blue: "#268bd2"
-        cyan: "#2aa198"
-        green: "#859900"
-        magenta: "#d33682"
-        red: "#dc322f"
-        yellow: "#b58900"
-      zBright:
-        brightBlack: "#073642"
-        brightBlue: "#268bd2"
-        brightCyan: "#2aa198"
-        brightGreen: "#859900"
-        brightMagenta: "#d33682"
-        brightRed: "#dc322f"
-        brightYellow: "#b58900"
-    core: {}
-    style:
-      animationSpeed: 0
-      fontSize: "14"
   "pristine-ui": {}
   "terminal-plus":
     core: {}
