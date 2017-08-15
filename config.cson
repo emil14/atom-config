@@ -11,7 +11,6 @@
       "language-mustache"
       "language-objective-c"
       "language-perl"
-      "language-ruby"
       "language-ruby-on-rails"
       "language-toml"
       "link"
@@ -25,12 +24,8 @@
       "markdown-preview"
       "language-csharp"
       "language-java"
-      "language-make"
-      "language-php"
-      "language-sql"
-      "language-xml"
-      "language-yaml"
       "image-view"
+      "language-ruby"
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
@@ -43,7 +38,6 @@
     ]
     warnOnLargeFileLimit: 1
   editor:
-    fontSize: 17
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -78,10 +72,14 @@
   "pristine-ui": {}
   "terminal-plus":
     core: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "tree-view-breadcrumb":
     scrollToLastItem: false
   welcome:
     showOnStartup: false
+  zentabs:
+    showPinnedIcon: false
 ".html.text.vue":
   editor:
     autoIndent: true

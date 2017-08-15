@@ -1,5 +1,5 @@
 # atom-config
-My settings and packages list for Atom editor. Inspired by [this issue](https://stackoverflow.com/questions/30006827/how-to-save-atom-editor-config-and-list-of-packages-installed)
+My settings and packages list for Atom editor. Inspired by [this issue](https://stackoverflow.com/questions/30006827/how-to-save-atom-editor-config-and-list-of-packages-installed) ⚛️
 
 ``` bash
 # retrieve settings
