@@ -31,11 +31,19 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
-'atom-text-editor:not([mini])':
-  'ctrl-shift-up': 'ctrl-dir-scroll:scroll-up'
-  'ctrl-shift-down': 'ctrl-dir-scroll:scroll-down'
-  'alt-x': 'multi-cursor-plus:mark'
-  'alt-up': 'multi-cursor-plus:move-up'
-  'alt-down': 'multi-cursor-plus:move-down'
-  'alt-left': 'multi-cursor-plus:move-left'
-  'alt-right': 'multi-cursor-plus:move-right'
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+'.markdown-preview':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# For tree-view
+'.tree-view':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# Map '-', so that I can focus last-focused element by typing `-` twice.
+'atom-text-editor#choose-pane-editor':
+  '-': 'choose-pane:last-focused'

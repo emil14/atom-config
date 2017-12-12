@@ -1,4 +1,18 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+      formatOnType: false
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+    "atom-ide-outline-view": {}
+    use: {}
+  "atom-package-deps":
+    ignored: [
+      "linter-eslint"
+    ]
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
@@ -26,11 +40,18 @@
       "language-java"
       "image-view"
       "language-ruby"
+      "bookmarks"
+      "git-diff"
+      "github"
+      "go-to-line"
+      "language-make"
+      "language-php"
+      "language-python"
+      "language-sass"
+      "language-sql"
+      "symbols-view"
     ]
-    packagesWithKeymapsDisabled: [
-      "ctrl-dir-scroll"
-    ]
-    projectHome: "~/dev"
+    projectHome: "~/projects"
     telemetryConsent: "limited"
     themes: [
       "pristine-ui"
@@ -38,6 +59,7 @@
     ]
     warnOnLargeFileLimit: 1
   editor:
+    invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -47,6 +69,8 @@
   "exception-reporting":
     userId: "c59e223c-1429-4e78-9c86-39c6ce75cf87"
   "file-icons": {}
+  fonts:
+    fontFamily: "Hermit"
   "highlight-column":
     lineMode: true
   "highlight-selected":
@@ -70,10 +94,14 @@
   pigments:
     markerType: "gutter"
   "pristine-ui": {}
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
   "terminal-plus":
     core: {}
   "tree-view":
-    hideVcsIgnoredFiles: true
+    alwaysOpenExisting: true
+    autoReveal: true
   "tree-view-breadcrumb":
     scrollToLastItem: false
   welcome:
