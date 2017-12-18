@@ -40,5 +40,25 @@ atom-text-editor .cursor {
 }
 
 atom-workspace {
-  font-family: Hermit;
+  font-family: 'Terminus (TTF)';
+}
+
+.indent-guide-improved {
+  background-color: transparent;
+  &.indent-guide-stack {
+    background-color: rgba(171, 178, 191, 0.15);
+    &.indent-guide-active {
+      background-color: rgba(171, 178, 191, 0.3);
+    }
+  }
+}
+
+atom-text-editor {
+  .invisible-character {
+    color: transparent;
+  }
+
+  .cursor-line .invisible-character {
+    color: rgba(171, 178, 191, 0.15);
+  }
 }

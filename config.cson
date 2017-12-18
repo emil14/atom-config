@@ -13,7 +13,12 @@
     ignored: [
       "linter-eslint"
     ]
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    defaultProvider: "Fuzzy"
   core:
+    allowPendingPaneItems: false
+    autoHideMenuBar: true
     closeDeletedFileTabs: true
     disabledPackages: [
       "language-gfm"
@@ -59,10 +64,11 @@
     ]
     warnOnLargeFileLimit: 1
   editor:
+    fontFamily: "'Terminus (TTF)'"
     invisibles: {}
     scrollPastEnd: true
-    showIndentGuide: true
     showInvisibles: true
+    showLineNumbers: false
     softWrap: true
     zoomFontWhenCtrlScrolling: false
   emmet: {}
@@ -70,11 +76,12 @@
     userId: "c59e223c-1429-4e78-9c86-39c6ce75cf87"
   "file-icons": {}
   fonts:
-    fontFamily: "Hermit"
+    fontFamily: "Roboto Mono"
   "highlight-column":
     lineMode: true
   "highlight-selected":
-    highlightBackground: true
+    highlightInPanes: false
+    ignoreCase: true
     lightTheme: true
   hyperclick:
     linuxTriggerKeys: "shiftKey"
@@ -86,6 +93,9 @@
     lintHtmlFiles: true
   "linter-ui-default":
     panelHeight: 63
+    showProviderName: true
+    statusBarPosition: "Right"
+    statusBarRepresents: "Current File"
   minimap:
     independentMinimapScroll: true
     plugins:
@@ -94,6 +104,7 @@
   pigments:
     markerType: "gutter"
   "pristine-ui": {}
+  "relative-numbers": {}
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
@@ -104,6 +115,14 @@
     autoReveal: true
   "tree-view-breadcrumb":
     scrollToLastItem: false
+  "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    clearMultipleCursorsOnEscapeInsertMode: true
+    keymapYToYankToLastCharacterOfLine: true
+    sequentialPaste: true
+    showHoverSearchCounter: true
+    statusBarModeStringStyle: "long"
+    useSmartcaseForSearch: true
   welcome:
     showOnStartup: false
   zentabs:

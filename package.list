@@ -1,18 +1,21 @@
-atom-ide-ui@0.6.0
 autocomplete-paths@2.12.1
+busy-signal@1.4.3
 choose-pane@0.8.0
 emmet@2.4.3
 ex-mode@0.18.0
-file-icons@2.1.14
-fonts@3.0.3
+file-icons@2.1.15
 highlight-selected@0.13.1
-ide-typescript@0.7.1
+indent-guide-improved@1.4.13
+intentions@1.1.5
+linter@2.2.0
 linter-eslint@8.4.0
+linter-ui-default@1.6.10
+minimap@4.29.7
 multi-cursor@2.1.5
 pigments@0.40.2
 pristine-ui@1.1.11
 react@0.17.0
 relative-numbers@0.8.0
-vim-mode-plus@1.24.0
+vim-mode-plus@1.24.3
 vim-mode-plus-keymaps-for-surround@0.2.1
 
