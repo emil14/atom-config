@@ -17,16 +17,13 @@
     backspaceTriggersAutocomplete: true
     defaultProvider: "Fuzzy"
   core:
-    allowPendingPaneItems: false
     autoHideMenuBar: true
     closeDeletedFileTabs: true
     disabledPackages: [
       "language-gfm"
       "language-c"
       "language-clojure"
-      "language-coffee-script"
       "language-go"
-      "language-less"
       "language-mustache"
       "language-objective-c"
       "language-perl"
@@ -40,21 +37,23 @@
       "welcome"
       "archive-view"
       "autocomplete-atom-api"
-      "markdown-preview"
       "language-csharp"
       "language-java"
       "image-view"
-      "language-ruby"
       "bookmarks"
       "git-diff"
       "github"
       "go-to-line"
       "language-make"
+      "symbols-view"
+      "markdown-preview"
+      "language-property-list"
+      "language-source"
+      "language-text"
+      "language-xml"
       "language-php"
       "language-python"
-      "language-sass"
-      "language-sql"
-      "symbols-view"
+      "language-ruby"
     ]
     projectHome: "~/projects"
     telemetryConsent: "limited"
@@ -67,6 +66,7 @@
     fontFamily: "'Terminus (TTF)'"
     invisibles: {}
     scrollPastEnd: true
+    scrollSensitivity: 200
     showInvisibles: true
     showLineNumbers: false
     softWrap: true
