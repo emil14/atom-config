@@ -78,7 +78,7 @@
   fonts:
     fontFamily: "Roboto Mono"
   "highlight-column":
-    lineMode: true
+    opacity: 0.04
   "highlight-selected":
     highlightInPanes: false
     ignoreCase: true
@@ -97,6 +97,8 @@
     statusBarPosition: "Right"
     statusBarRepresents: "Current File"
   minimap:
+    absoluteMode: true
+    adjustMinimapWidthOnlyIfSmaller: false
     independentMinimapScroll: true
     plugins:
       cursorline: true
