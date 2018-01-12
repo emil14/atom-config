@@ -16,6 +16,7 @@
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
     defaultProvider: "Fuzzy"
+  "bracket-matcher": {}
   core:
     autoHideMenuBar: true
     closeDeletedFileTabs: true
@@ -68,7 +69,6 @@
     scrollPastEnd: true
     scrollSensitivity: 200
     showInvisibles: true
-    showLineNumbers: false
     softWrap: true
     zoomFontWhenCtrlScrolling: false
   emmet: {}
@@ -78,6 +78,7 @@
   fonts:
     fontFamily: "Roboto Mono"
   "highlight-column":
+    lineMode: true
     opacity: 0.04
   "highlight-selected":
     highlightInPanes: false
@@ -97,7 +98,6 @@
     statusBarPosition: "Right"
     statusBarRepresents: "Current File"
   minimap:
-    absoluteMode: true
     adjustMinimapWidthOnlyIfSmaller: false
     independentMinimapScroll: true
     plugins:
@@ -105,7 +105,16 @@
       cursorlineDecorationsZIndex: 0
   pigments:
     markerType: "gutter"
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "Folder"
+    style:
+      animationSpeed: 0
+      theme: "one-dark"
   "pristine-ui": {}
+  "project-manager":
+    alwaysOpenInSameWindow: true
+    includeGitRepositories: true
   "relative-numbers": {}
   tabs:
     addNewTabsAtEnd: true
@@ -114,7 +123,6 @@
     core: {}
   "tree-view":
     alwaysOpenExisting: true
-    autoReveal: true
   "tree-view-breadcrumb":
     scrollToLastItem: false
   "vim-mode-plus":
